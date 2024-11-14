@@ -54,6 +54,7 @@ STABLE_DIFF_API=your_stable_diffusion_api_key_here
 Some libraries like `Whisper` and `DeepFace` may download their model files on the first run. 📥 
 
 ---
+make sure to make a .env file to put in the api key.
 
 ## 📸 Usage
 
@@ -79,10 +80,16 @@ Some libraries like `Whisper` and `DeepFace` may download their model files on t
 - Generates an image based on your text prompt using **Stable Diffusion API**! 🧑‍🎨
 
 ### `extract_keywords(title, details)`
-- Uses **NLTK** to extract keywords from titles and descriptions. 
+- Uses **NLTK** to extract keywords from titles and descriptions.
+
+- 
 
 ### `convert_video_to_audio(video_path)`
 - Converts video to audio using **FFmpeg** for transcription! 🎙️
 
 ### `transcribe_audio_with_whisper(audio_path)`
 - Transcribes audio using the **Whisper** model for accurate speech-to-text! ✏️
+
+### **project teammates**
+This project was collaborated with Poorvi Bellur, Ansh Kashyap and Aditya K. I am extremely gratfeul for their support without which we would not have won 2nd place in the Craft and Code hackathon conducted by IIIT bhubaneshwar.
+
