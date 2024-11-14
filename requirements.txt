@@ -1,0 +1,53 @@
+# Streamlit for web interface
+streamlit==1.26.0
+
+# OpenCV for image processing and video analysis
+opencv-python-headless==4.5.5.64
+
+# DeepFace for emotion detection
+deepface==0.0.75
+
+# Requests for API calls
+requests==2.31.0
+
+# Pillow for image handling
+pillow==9.4.0
+
+# Whisper for audio transcription (requires PyTorch)
+whisper==1.0
+torch==1.13.1
+
+# NLTK for text processing
+nltk==3.6.7
+
+# SceneDetect for keyframe extraction
+scenedetect[opencv]==0.5.6
+
+# dotenv for environment variable handling
+python-dotenv==0.21.0
+
+# rembg for background removal
+rembg==2.0.30
+
+# Additional dependencies for processing
+numpy==1.23.4
+base64
+subprocess
+re
+
+Notes:
+DeepFace may require additional backend dependencies (e.g., tensorflow, torch, or keras), depending on your configuration.
+Whisper relies on PyTorch; ensure compatibility with your hardware.
+Rembg may also require ONNX Runtime or additional image libraries. If needed, add:
+plaintext
+Copy code
+onnxruntime==1.13.1
+Post-Installation Setup
+NLTK: Run the following in a Python shell after installing nltk to download necessary data:
+python
+Copy code
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+Environment Variables: Place your API keys in a .env file for secure handling with python-dotenv.
+This setup should cover the main dependencies required to run your project. Let me know if there’s anything specific to add or adjust!
