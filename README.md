@@ -1,6 +1,6 @@
 # 🎬✨ Video Thumbnail Generator 🎨📸
 
-Welcome to the **Video Thumbnail Generator**! 🌟 This tool leverages **Machine Learning** 🧠, **Scene Detection** 📹, and **Emotion Analysis** 😃😢 to help you find the most impactful keyframes for thumbnails. It also includes **Text-to-Image Generation** 🌌🖼️ to create unique visuals from prompts! Whether you’re a content creator or an editor, this tool is designed to make your work smoother and more creative! 🚀
+Welcome to the **Video Thumbnail Generator**! 🌟 This tool leverages **Machine Learning** 🧠, **Scene Detection** 📹, and **Emotion Analysis** 😃😢 to help you find the most impactful keyframes for thumbnails. It also includes **Text-to-Image Generation** 🌌🖼️ to create unique visuals from prompts! Whether you’re a content creator or an editor, this tool is designed to make your work smoother and more creative!.🚀
 
 ---
 
